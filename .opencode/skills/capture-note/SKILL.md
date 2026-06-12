@@ -39,6 +39,7 @@ Related: [[office-fit-out]]  #procurement
 
 2. **Always ask for budget and style preference before suggesting.** Even if the user has given an occasion before or it's a recurring case, always ask again. Ask:
    - Budget range (budget / mid-range / premium)
+      - If **premium** (no limit), target luxury/designer brands (e.g. Selfridges, NET-A-PORTER, FARFETCH)
    - Style preference (men's / women's / any)
    - Specific vibe if relevant (e.g. "casual beach", "edgy concert", "elegant formal")
 
