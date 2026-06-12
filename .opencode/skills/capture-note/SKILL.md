@@ -1,6 +1,6 @@
 ---
-name: capture-note
-description: Use when the user wants to save, remember, jot down, or capture a thought, fact, link, or decision. Writes a structured Markdown note into the memory/ vault (Obsidian/Logseq compatible) so it survives between sessions.
+name: fit-suggest
+description: Use when the user says they need an outfit for an occasion (e.g. "I need an outfit for a wedding", "What should I wear to an interview?").
 metadata:
   difficulty: beginner
 ---
@@ -11,9 +11,7 @@ Save a durable note to the agent's long-term memory.
 
 ## When to use this
 
-The user says things like "remember that…", "save this", "note that…", "jot down",
-"keep this for later", or hands you a fact/link/decision worth keeping. If they're just
-chatting, don't capture — only persist things with future value.
+Any time the user asks for outfit suggestions, what to wear, or what fits an occasion. Keywords: "outfit for", "what to wear", "what should I wear", "need an outfit", "dress for", "clothes for", "find me".
 
 ## What a memory note looks like
 
@@ -35,19 +33,17 @@ Related: [[office-fit-out]]  #procurement
 
 ## Procedure
 
-1. **Decide the slug.** Turn the topic into a short kebab-case filename, e.g.
-   `coffee-suppliers.md`. Lowercase, hyphens, no spaces.
-2. **Check for an existing note** on the same topic with the `recall` skill (or a quick
-   search of `memory/`). If one exists, **update it** rather than creating a duplicate —
-   append the new information under the existing body.
-3. **Get today's date** with the `date +%Y-%m-%d` command — don't guess it.
-4. **Write the file** to `memory/<slug>.md` using the format above:
-   - `title`: a human-readable one-liner.
-   - `created`: today's date (only set on creation; leave as-is when updating).
-   - `tags`: 1–4 lowercase tags.
-   - Body: the actual content, in plain language. Add `[[links]]` to related notes and
-     `#hashtags` for topics where it helps future recall.
-5. **Confirm** to the user: name the file you wrote and one line on what's in it.
+0. If the user hasn't given an occasion, ask: "What's the occasion?" Keep it short.
+
+1. **Identify the occasion.** Extract it from the user's message (wedding, interview, date, gym, funeral, party, etc.).
+
+2. **Suggest a complete outfit.** Recommend a top, bottom, shoes, and accessories that fit the occasion. Present it visually / clearly — one option at first unless the user wants more.
+
+3. **Offer swaps.** Ask if they want to change any piece. Let them swap items freely.
+
+4. **Find the cheapest price.** For each final piece, search across retailers and return the cheapest option + link.
+
+5. **Summarize.** Give the final outfit + total price + cheapest sources in a clean format. Tell the user what you did.
 
 ## Notes for whoever iterates on this skill
 
@@ -55,3 +51,12 @@ Related: [[office-fit-out]]  #procurement
   detect near-duplicate notes before writing, or add a `source:` field for links.
 - If you switch your persistence layer to Notion (see `docs/persistence.md`), this is the
   skill you rewrite — swap the "write a file" step for a "create a Notion page" step.
+
+
+
+
+# Fit Suggest
+
+
+
+## Procedure
