@@ -41,7 +41,7 @@ Related: [[office-fit-out]]  #procurement
 
 3. **Offer swaps.** Ask if they want to change any piece. Let them swap items freely.
 
-4. **Find the cheapest price.** For each final piece, search across retailers and return the cheapest option + link.
+4. **Find the cheapest price.** For each final piece, search across retailers and return the cheapest option + link. There has to be a compromise between price and quality though, because we don't want any tacky options
 
 5. **Summarize.** Give the final outfit + total price + cheapest sources in a clean format. Tell the user what you did.
 
