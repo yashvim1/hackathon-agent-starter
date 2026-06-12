@@ -37,9 +37,14 @@ Related: [[office-fit-out]]  #procurement
 
 1. **Identify the occasion.** Extract it from the user's message (wedding, interview, date, gym, funeral, party, etc.).
 
-2. **Suggest a complete outfit.** Recommend a top, bottom, shoes, and accessories that fit the occasion. Present it visually / clearly — one option at first unless the user wants more.
+2. **Always ask for budget and style preference before suggesting.** Even if the user has given an occasion before or it's a recurring case, always ask again. Ask:
+   - Budget range (budget / mid-range / premium)
+   - Style preference (men's / women's / any)
+   - Specific vibe if relevant (e.g. "casual beach", "edgy concert", "elegant formal")
 
-3. **Offer swaps.** Ask if they want to change any piece. Let them swap items freely.
+3. **Suggest a complete outfit.** Recommend a top, bottom, shoes, and accessories that fit the occasion. Present it visually / clearly — one option at first unless the user wants more.
+
+4. **Offer swaps.** Ask if they want to change any piece. Let them swap items freely.
 
 4. **Find the cheapest price.** For each final piece, search across retailers and return the cheapest option + link. There has to be a compromise between price and quality though, because we don't want any tacky options
 
