@@ -53,3 +53,10 @@ Related: [[office-fit-out]]  #procurement
   skill you rewrite — swap the "write a file" step for a "create a Notion page" step.
 
 
+
+
+# Fit Suggest
+
+
+
+## Procedure
